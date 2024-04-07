@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
-const {title, description, pubDate, updatedDate, heroImage} = Astro.props;
+const {title, description} = Astro.props;
 ---
 
 <html lang="en">
@@ -15,9 +15,7 @@ const {title, description, pubDate, updatedDate, heroImage} = Astro.props;
 <body>
 <Header/>
 <main>
-    <article>
-        <iframe src="/jsonresume.pdf" width="100%"></iframe>
-    </article>
+    <iframe src="/jsonresume.pdf" width="100%"></iframe>
 </main>
 <Footer/>
 </body>
