@@ -1,0 +1,16 @@
+---
+import {CUR} from "astro/dist/assets/utils/vendor/image-size/types/cur";
+const {name, startDate, endDate, url, description, position, location, highlights} = Astro.props
+const current = endDate.length == 0
+// TASKT: Add year/month calculation
+---
+
+<span class="position">{position}</span>, <span class="name">{name}</span>
+{location.length > 0 && <span>{location}</span>}
+<span class="date">{startDate}</span> to {current ? <span>Present</span> : <span>{endDate}</span>}
+<p>
+    {description}
+</p>
+<ul>
+    
+</ul>

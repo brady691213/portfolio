@@ -20,6 +20,9 @@ dependencies:
   astro:
     specifier: ^4.5.16
     version: 4.5.16(typescript@5.4.4)
+  html2pdf:
+    specifier: ^0.0.11
+    version: 0.0.11
   typescript:
     specifier: ^5.4.4
     version: 5.4.4
@@ -2287,6 +2290,10 @@ packages:
 
   /html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
+    dev: false
+
+  /html2pdf@0.0.11:
+    resolution: {integrity: sha512-Kx3I5r7lazHZzZv5lDk59jQoTxqaEGlf2BcGNvzWGPQVu0hE8jYCk4hboksuaCvmMJPa0S0A+156ZbE71Wdo2w==}
     dev: false
 
   /http-cache-semantics@4.1.1:
