@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Layout.astro"
+layout: "../layouts/CvLayout.astro"
 name: Jane Doe
 image: "./avatar_hat.jpg"
 function: Designer

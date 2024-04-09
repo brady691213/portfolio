@@ -1,16 +1,20 @@
-import { defineCollection, z } from 'astro:content';
+import {defineCollection} from 'astro:content';
+import {experienceSchema} from "../schemas/experience.ts";
+import {skillSchema} from "../schemas/skill.ts";
 
-const blog = defineCollection({
-	type: 'content',
-	// Type-check frontmatter using a schema
-	schema: z.object({
-		title: z.string(),
-		description: z.string(),
-		// Transform string to Date object
-		pubDate: z.coerce.date(),
-		updatedDate: z.coerce.date().optional(),
-		heroImage: z.string().optional(),
-	}),
-});
+const experiences = defineCollection({
+	type: "content",
+	schema: experienceSchema
+})
+
+const skills = defineCollection({
+	type: "content",
+	schema: skillSchema
+})
+
+export const collections = {
+	"experience": experiences,
+	"skills": skills
+}
 
 

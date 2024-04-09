@@ -1,9 +1,7 @@
 ---
-import BaseHead from '../components/Head.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import {SITE_TITLE, SITE_DESCRIPTION} from '../consts';
-import HtmlHead from "../components/Head.astro";
 import Head from "../components/Head.astro";
 ---
 
@@ -12,7 +10,7 @@ import Head from "../components/Head.astro";
 <Head title={SITE_TITLE} description={SITE_DESCRIPTION}/>
 <body>
 <Header/>
-<main>
+<main class="prose">
     <h1>My Portfolio Website</h1>
     <p>
         I am a full stack software engineer and programmer from Johannesburg, South Africa. I use both terms because I
@@ -22,7 +20,7 @@ import Head from "../components/Head.astro";
         I am currently recovering from a major surge of interest in purely frontend development, particularly using the
         islands architecture of
         the <a href="https://astro.build">Astro</a> web framework, which allows very neat separation of content and
-        presentation concerns.
+        presentation concerns. This website of mine is based on Astro.
     </p>
 </main>
 <Footer/>
