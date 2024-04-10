@@ -1,0 +1,33 @@
+---
+const {paragraphs, heading} = Astro.props
+const showHeading = heading && heading.length > 0
+
+import "../styles/dorik-nav.css"
+---
+
+<div class="">
+    <div class="container dorik-row-text-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <div class="dorik-row-text  flex">
+            <div class="col-lg-1/1 ">
+                <div class="column-inner dorik-column-4zk5jk7n  1/1">
+                    <div class="dorik-wrapper dorik-heading-gw9lvrwm-wrapper ">
+                        {
+                            showHeading &&
+                                <h1 class="dorik-heading dorik-heading-gw9lvrwm ">
+                                    <span>{heading}</span>
+                                </h1>
+                        }
+                    </div>
+                    <div class="dorik-text dorik-text-mcyezamk ">
+                        {
+                            paragraphs.map((p) => {
+                                return <p>{p}</p>
+                            })
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
