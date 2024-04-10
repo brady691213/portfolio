@@ -1,24 +1,30 @@
 ---
+import NavBar from "../components/sections/NavBar.astro";
 const {paragraphs, heading} = Astro.props
 const showHeading = heading && heading.length > 0
 
 import "../styles/dorik-nav.css"
+import Hero from "../components/sections/Hero.astro";
+import Footer from "../components/Footer.astro";
+import Aspects from "../components/sections/Aspects.astro";
 ---
 
+<NavBar />
+<Hero />
 <div class="">
     <div class="container dorik-row-text-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
         <div class="dorik-row-text  flex">
             <div class="col-lg-1/1 ">
                 <div class="column-inner dorik-column-4zk5jk7n  1/1">
-                    <div class="dorik-wrapper dorik-heading-gw9lvrwm-wrapper ">
+                    <div class="dorik-wrapper dorik-heading-text-wrapper ">
                         {
                             showHeading &&
-                                <h1 class="dorik-heading dorik-heading-gw9lvrwm ">
+                                <h2 class="dorik-heading dorik-heading-text ">
                                     <span>{heading}</span>
-                                </h1>
+                                </h2>
                         }
                     </div>
-                    <div class="dorik-text dorik-text-mcyezamk ">
+                    <div class="dorik-text dorik-text-prose">
                         {
                             paragraphs.map((p) => {
                                 return <p>{p}</p>
@@ -30,4 +36,14 @@ import "../styles/dorik-nav.css"
         </div>
     </div>
 </div>
+<Aspects />
+<Footer />
 
+<style>
+    p {
+        margin-bottom: 0.3rem;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+</style>

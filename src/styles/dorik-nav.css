@@ -3478,7 +3478,7 @@ a {
 
 
 /*Title*/
-.dorik-heading-gw9lvrwm {
+.dorik-heading-text {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -3489,7 +3489,7 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
-    .dorik-heading-gw9lvrwm {
+    .dorik-heading-text {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0%;
@@ -3500,26 +3500,26 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .dorik-heading-gw9lvrwm {
+    .dorik-heading-text {
         font-size: 50px;
 
     }
 
 }
 
-.dorik-heading-gw9lvrwm {
+.dorik-heading-text {
 
 }
 
-.dorik-heading-gw9lvrwm p {
+.dorik-heading-text p {
     display: inline;
 }
 
-.dorik-heading-gw9lvrwm .dorik-heading__dynamic {
+.dorik-heading-text .dorik-heading__dynamic {
     display: inline
 }
 
-.dorik-heading-gw9lvrwm .dorik-heading__dynamic span {
+.dorik-heading-text .dorik-heading__dynamic span {
     display: inline-block;
 }
 
@@ -3533,7 +3533,7 @@ a {
 }
 
 @media all and (max-width: 1023px) {
-    :where([class*="dorik-heading-gw9lvrwm-wrapper"]:not([class*="dorik-heading-gw9lvrwm-wrapper"] *)) {
+    :where([class*="dorik-heading-text-wrapper"]:not([class*="dorik-heading-text-wrapper"] *)) {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0%;
@@ -3543,7 +3543,7 @@ a {
 }
 
 @media all and (max-width: 767px) {
-    :where([class*="dorik-heading-gw9lvrwm-wrapper"]:not([class*="dorik-heading-gw9lvrwm-wrapper"] *)) {
+    :where([class*="dorik-heading-text-wrapper"]:not([class*="dorik-heading-text-wrapper"] *)) {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0%;
@@ -3553,7 +3553,7 @@ a {
 }
 
 
-.dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm {
+.dorik-heading-text.dorik-heading-text.dorik-heading-text {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -3562,7 +3562,7 @@ a {
 }
 
 @media all and (max-width: 1023px) {
-    .dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm {
+    .dorik-heading-text.dorik-heading-text.dorik-heading-text {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
@@ -3572,7 +3572,7 @@ a {
 }
 
 @media all and (max-width: 767px) {
-    .dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm.dorik-heading-gw9lvrwm {
+    .dorik-heading-text.dorik-heading-text.dorik-heading-text {
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
@@ -3582,7 +3582,7 @@ a {
 }
 
 /*Text*/
-.dorik-text-mcyezamk {
+.dorik-text-prose {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -3592,7 +3592,7 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
-    .dorik-text-mcyezamk {
+    .dorik-text-prose {
         margin-top: 20px;
         margin-bottom: 0px;
         margin-left: 10%;
@@ -3603,7 +3603,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .dorik-text-mcyezamk {
+    .dorik-text-prose {
         margin-top: 20px;
         margin-bottom: 0px;
         margin-left: 0%;
@@ -3612,11 +3612,6 @@ a {
     }
 
 }
-
-.dorik-text-mcyezamk {
-
-}
-
 
 /*Button*/
 .dorik-button-tumi90ec {

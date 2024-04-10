@@ -1,24 +1,19 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
+import Prose from "../layouts/Prose.astro";
+const paragraphs = [
+    "I am a full stack software engineer and programmer from Johannesburg, South Africa. " +
+    "I use both terms because I believe each describes a different aspect of software creation, " +
+    "and I hope you'll enjoy exploring my views on these topics through this website. ",
+    
+    "While recovering from a recent surge of interest in purely frontend development, I've become particularly " +
+    "fascinated with the [Astro](https://astro.build) static website and SSR framework that allows for a very neat " +
+    "separation of content and presentation concerns. This website is driven by Astro. ",
+    
+    "It also allows me a timeout to learn the TailwindCss design framework, which is a little bit harder than I " +
+    "bargained for. That is why this site is still so plain, and styled with old fashioned classes."
+]
 ---
 
-<BaseLayout>
-        <h1>My Portfolio Website</h1>
-        <p>
-            I am a full stack software engineer and programmer from Johannesburg, South Africa. 
-            I use both terms because I believe each describes a different aspect of software creation, 
-            and I hope you'll enjoy exploring my views on these topics through this website. 
-        </p>
-        <p>
-            Currently recovering from a major surge of interest in purely frontend development, I've become particularly
-            fascinated with the <a href="https://astro.build">Astro</a>
-            static website framework. This allows very neat separation of content and presentation concerns. This
-            website of mine is based on Astro.
-        </p>
-        <p>
-            It also allows me a timeout to learn the TailwindCss design framework, which is a little bit harder than I
-            bargained for. That is why this site
-            is still so plain.
-        </p>
-</BaseLayout>
+<Prose paragraphs={paragraphs} heading="My Portfolio Site" />
+
 
