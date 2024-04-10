@@ -7,9 +7,10 @@ import "../styles/dorik-nav.css"
 import Hero from "../components/sections/Hero.astro";
 import Footer from "../components/Footer.astro";
 import Aspects from "../components/sections/Aspects.astro";
+import BaseLayout from "./BaseLayout.astro";
 ---
 
-<NavBar />
+<BaseLayout>
 <Hero />
 <div class="">
     <div class="container dorik-row-text-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
@@ -37,7 +38,8 @@ import Aspects from "../components/sections/Aspects.astro";
     </div>
 </div>
 <Aspects />
-<Footer />
+</BaseLayout>
+
 
 <style>
     p {

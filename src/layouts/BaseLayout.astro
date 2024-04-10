@@ -1,6 +1,6 @@
 ---
 import Footer from '../components/Footer.astro';
-import Head from "../components/Head.astro";
+import HtmlHead from "../components/HtmlHead.astro";
 import NavBar from "../components/sections/NavBar.astro";
 import Hero from "../components/sections/Hero.astro";
 import Aspects from "../components/sections/Aspects.astro";
@@ -10,12 +10,10 @@ import "../styles/dorik-nav.css"
 
 <!doctype html>
 <html lang="en">
-<Head />
+<HtmlHead />
 <body>
 <NavBar />
-<Hero />
 <slot />
-<Aspects />
-<!--<Footer />-->
+<Footer />
 </body>
 </html>

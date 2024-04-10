@@ -2,7 +2,7 @@ import {defineCollection} from 'astro:content';
 import {experienceSchema} from "../schemas/experience.ts";
 import {skillSchema} from "../schemas/skill.ts";
 
-const experiences = defineCollection({
+const experience = defineCollection({
 	type: "content",
 	schema: experienceSchema
 })
@@ -13,7 +13,7 @@ const skills = defineCollection({
 })
 
 export const collections = {
-	"experience": experiences,
+	"experience": experience,
 	"skills": skills
 }
 
