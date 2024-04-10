@@ -2,6 +2,7 @@
 employer: Smart Computer Solutions
 position: Consultant Developer
 location: Johannesburg, South Africa
+remote: Remote
 startDate: 2009-07-31
 endDate: 2013-05-31
 highlights: 

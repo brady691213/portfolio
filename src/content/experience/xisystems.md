@@ -2,6 +2,7 @@
 employer: XI Systems
 position: Senior Developer
 location: Johannesburg, South Africa
+remote: On Site
 startDate: 2018-07-01
 endDate: 2022-07-31
 url: https://xisystems.co.za

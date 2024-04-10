@@ -1,7 +1,8 @@
 ---
 employer: LexisNexis
 position: Senior Software Engineer
-location: Cape Town, South Africa, Remote
+location: Cape Town, South Africa
+remote: Remote
 startDate: 2022-09-01
 endDate: 2023-09-06
 url: https://lexisnexis.com

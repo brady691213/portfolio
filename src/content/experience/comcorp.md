@@ -1,6 +1,7 @@
 ---
 employer: Comcorp Online
 location: Johannesburg, South Africa
+remote: On Site
 startDate: 2000-01-31
 endDate: 2003-01-31
 description: Design and development of a national scale client-server real estate listing and management system. I designed and coded it in VB6, and mentored several juniors into performing the same duties as me in the system. Technical skills included SQL Server design and admin (as far back as v7).

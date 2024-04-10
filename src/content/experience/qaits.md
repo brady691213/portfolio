@@ -9,4 +9,5 @@ highlights:
     WebForms was not a highlight
 url: https://qaits.co.za
 location: Johannesburg, South Africa
+remote: On Site
 ---

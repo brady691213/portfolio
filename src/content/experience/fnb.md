@@ -7,6 +7,8 @@ highlights:
     Rewrote banks New Business Acquisition System API gateway for mortgage originators
     Experience with Microsoft Distributed Transaction Coordinator (MS DTC)
     Experience with SQL Server Data Services
+location: Johannesburg, South Africa
+remote: On Site
 ---
 
       
