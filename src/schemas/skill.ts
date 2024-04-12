@@ -1,8 +1,9 @@
 import {z} from "astro:content"
 
-export let skillSchema: any
-skillSchema = z.object({
+const skillSchema = z.object({
     name: z.string(),
-    strength: z.enum(["novice", "proficient", "strong"]),
+    strength: z.enum(["Novice", "Proficient", "Strong"]),
     years: z.number().optional()
 })
+
+export default skillSchema

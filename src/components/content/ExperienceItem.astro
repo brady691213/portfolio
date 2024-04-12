@@ -1,0 +1,23 @@
+---
+const {employer, startDate, endDate, url, description, position, location, highlights} = Astro.props
+const current = endDate.length == 0
+// TASKT: Add year/month calculation
+---
+
+<div>
+    <p>{position}>, <a href={url}>{employer}</a></p>
+    <a href={url}>{employer}</a>
+    <p>
+        <span class="date">{startDate}</span> to {current ? "Present" : <span class="date">{endDate}</span>}, {location}}>
+    </p>
+    <p>
+        {description}
+    </p>
+    <ul>
+        {
+            highlights.map((h: string) => (
+                <li>{h}</li>
+            ))
+        }
+    </ul>
+</div>

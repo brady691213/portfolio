@@ -1,19 +1,18 @@
 ---
 import { getCollection } from 'astro:content';
-import Experience from "../../components/Experience.astro"
+import ExperienceItem from "../../components/content/ExperienceItem.astro"
 
 export async function getStaticPaths() {
     const blogEntries = await getCollection('experience');
     return blogEntries.map(entry => ({
-        params: { slug: entry.slug }, props: { entry },
+        params: { slug: entry.slug }, props: { entry }
     }));
 }
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-
 ---
 
-<Experience frontmatter={entry}>
+<ExperienceItem frontmatter={entry}>
     <Content />
-</Experience>
+</ExperienceItem>
